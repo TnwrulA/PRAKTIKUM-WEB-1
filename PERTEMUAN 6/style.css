@@ -1,0 +1,119 @@
+/* Reset dasar */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f5f5f5;
+  color: #333;
+}
+
+nav {
+  background: linear-gradient(to right, #ccff00, #000000);
+  color: #fff;
+  padding: 1rem;
+  display: flex; 
+  justify-content: flex-end; 
+  align-items: center;
+}
+
+nav h1 {
+  margin: 0;
+  margin-right: auto; 
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem; 
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+section {
+  padding: 2rem;
+  margin: 1rem auto;
+  background: #fff;
+  max-width: 900px;
+}
+
+
+.foto {
+  text-align: center;
+}
+
+.foto img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #ccff00;
+ 
+}
+
+.foto h2 {
+  margin: 0.5rem 0;
+  color: #000000;
+}
+
+
+#keahlian ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Elemen rata tengah */
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+#keahlian ul li {
+  flex: 1 1 calc(30% - 1rem); 
+  background: #ffffff;
+  border: 1px solid #ccff00;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+#keahlian ul li:hover {
+  transform: scale(1.05);
+}
+
+
+#hobi ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+#hobi ul li {
+  background: #ffffff;
+  border: 1px solid #ccff00;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+#hobi ul li:hover {
+  transform: translateY(-5px);
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #ccff00;
+  color: #000000;
+  margin-top: 1rem;
+}
